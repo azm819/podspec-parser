@@ -43,30 +43,6 @@ public protocol PodspecListener: ParseTreeListener {
 	 */
 	func exitSpec_body(_ ctx: PodspecParser.Spec_bodyContext)
 	/**
-	 * Enter a parse tree produced by {@link PodspecParser#spec_dependency}.
-	 - Parameters:
-	   - ctx: the parse tree
-	 */
-	func enterSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext)
-	/**
-	 * Exit a parse tree produced by {@link PodspecParser#spec_dependency}.
-	 - Parameters:
-	   - ctx: the parse tree
-	 */
-	func exitSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext)
-	/**
-	 * Enter a parse tree produced by {@link PodspecParser#dependency}.
-	 - Parameters:
-	   - ctx: the parse tree
-	 */
-	func enterDependency(_ ctx: PodspecParser.DependencyContext)
-	/**
-	 * Exit a parse tree produced by {@link PodspecParser#dependency}.
-	 - Parameters:
-	   - ctx: the parse tree
-	 */
-	func exitDependency(_ ctx: PodspecParser.DependencyContext)
-	/**
 	 * Enter a parse tree produced by {@link PodspecParser#spec_name}.
 	 - Parameters:
 	   - ctx: the parse tree
@@ -90,4 +66,40 @@ public protocol PodspecListener: ParseTreeListener {
 	   - ctx: the parse tree
 	 */
 	func exitName(_ ctx: PodspecParser.NameContext)
+	/**
+	 * Enter a parse tree produced by {@link PodspecParser#spec_dependency}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext)
+	/**
+	 * Exit a parse tree produced by {@link PodspecParser#spec_dependency}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext)
+	/**
+	 * Enter a parse tree produced by {@link PodspecParser#subspec}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterSubspec(_ ctx: PodspecParser.SubspecContext)
+	/**
+	 * Exit a parse tree produced by {@link PodspecParser#subspec}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitSubspec(_ ctx: PodspecParser.SubspecContext)
+	/**
+	 * Enter a parse tree produced by {@link PodspecParser#dependency}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterDependency(_ ctx: PodspecParser.DependencyContext)
+	/**
+	 * Exit a parse tree produced by {@link PodspecParser#dependency}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitDependency(_ ctx: PodspecParser.DependencyContext)
 }

@@ -40,26 +40,6 @@ open class PodspecVisitor<T>: ParseTreeVisitor<T> {
 	}
 
 	/**
-	 * Visit a parse tree produced by {@link PodspecParser#spec_dependency}.
-	- Parameters:
-	  - ctx: the parse tree
-	- returns: the visitor result
-	 */
-	open func visitSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext) -> T {
-	 	fatalError(#function + " must be overridden")
-	}
-
-	/**
-	 * Visit a parse tree produced by {@link PodspecParser#dependency}.
-	- Parameters:
-	  - ctx: the parse tree
-	- returns: the visitor result
-	 */
-	open func visitDependency(_ ctx: PodspecParser.DependencyContext) -> T {
-	 	fatalError(#function + " must be overridden")
-	}
-
-	/**
 	 * Visit a parse tree produced by {@link PodspecParser#spec_name}.
 	- Parameters:
 	  - ctx: the parse tree
@@ -76,6 +56,36 @@ open class PodspecVisitor<T>: ParseTreeVisitor<T> {
 	- returns: the visitor result
 	 */
 	open func visitName(_ ctx: PodspecParser.NameContext) -> T {
+	 	fatalError(#function + " must be overridden")
+	}
+
+	/**
+	 * Visit a parse tree produced by {@link PodspecParser#spec_dependency}.
+	- Parameters:
+	  - ctx: the parse tree
+	- returns: the visitor result
+	 */
+	open func visitSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext) -> T {
+	 	fatalError(#function + " must be overridden")
+	}
+
+	/**
+	 * Visit a parse tree produced by {@link PodspecParser#subspec}.
+	- Parameters:
+	  - ctx: the parse tree
+	- returns: the visitor result
+	 */
+	open func visitSubspec(_ ctx: PodspecParser.SubspecContext) -> T {
+	 	fatalError(#function + " must be overridden")
+	}
+
+	/**
+	 * Visit a parse tree produced by {@link PodspecParser#dependency}.
+	- Parameters:
+	  - ctx: the parse tree
+	- returns: the visitor result
+	 */
+	open func visitDependency(_ ctx: PodspecParser.DependencyContext) -> T {
 	 	fatalError(#function + " must be overridden")
 	}
 

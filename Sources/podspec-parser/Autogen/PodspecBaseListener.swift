@@ -54,32 +54,6 @@ open class PodspecBaseListener: PodspecListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	open func enterSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	open func exitSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext) { }
-
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	open func enterDependency(_ ctx: PodspecParser.DependencyContext) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	open func exitDependency(_ ctx: PodspecParser.DependencyContext) { }
-
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	open func enterSpec_name(_ ctx: PodspecParser.Spec_nameContext) { }
 	/**
 	 * {@inheritDoc}
@@ -100,6 +74,45 @@ open class PodspecBaseListener: PodspecListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	open func exitName(_ ctx: PodspecParser.NameContext) { }
+
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	open func enterSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	open func exitSpec_dependency(_ ctx: PodspecParser.Spec_dependencyContext) { }
+
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	open func enterSubspec(_ ctx: PodspecParser.SubspecContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	open func exitSubspec(_ ctx: PodspecParser.SubspecContext) { }
+
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	open func enterDependency(_ ctx: PodspecParser.DependencyContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	open func exitDependency(_ ctx: PodspecParser.DependencyContext) { }
 
 	/**
 	 * {@inheritDoc}
