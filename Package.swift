@@ -19,9 +19,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .executableTarget(
             name: "podspec-parser",
-            dependencies: ["GraphViz", .product(name: "Antlr4", package: "antlr4")]),
+            dependencies: ["GraphViz", .product(name: "Antlr4", package: "antlr4")]
+        ),
         .testTarget(
             name: "podspec-parserTests",
-            dependencies: ["podspec-parser"]),
+            dependencies: ["podspec-parser"]
+        ),
     ]
 )

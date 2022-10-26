@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		D5CFFF9B28F2FB020018D354 /* GraphVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CFFF9A28F2FB020018D354 /* GraphVisualizer.swift */; };
 		OBJ_247 /* ANTLRErrorListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ANTLRErrorListener.swift */; };
 		OBJ_248 /* ANTLRErrorStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ANTLRErrorStrategy.swift */; };
 		OBJ_249 /* ANTLRFileStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ANTLRFileStream.swift */; };
@@ -417,6 +418,331 @@
 		D594FF5928F224640034E641 /* UserInfoServices.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UserInfoServices.podspec; sourceTree = "<group>"; };
 		D594FF5A28F224640034E641 /* PaymentsSharedUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PaymentsSharedUI.podspec; sourceTree = "<group>"; };
 		D594FF5B28F224640034E641 /* MBUIModules.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MBUIModules.podspec; sourceTree = "<group>"; };
+		D5CFFE5628F2D0820018D354 /* MarketingFeatureToggles.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarketingFeatureToggles.podspec; sourceTree = "<group>"; };
+		D5CFFE5728F2D0820018D354 /* MarketplaceMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarketplaceMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFE5828F2D0820018D354 /* FinanceMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FinanceMock.podspec; sourceTree = "<group>"; };
+		D5CFFE5928F2D0820018D354 /* AccountCardsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountCardsMock.podspec; sourceTree = "<group>"; };
+		D5CFFE5A28F2D0820018D354 /* NFSSearchInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSSearchInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE5B28F2D0820018D354 /* ProductsHomeMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProductsHomeMock.podspec; sourceTree = "<group>"; };
+		D5CFFE5C28F2D0820018D354 /* BringFriendMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BringFriendMock.podspec; sourceTree = "<group>"; };
+		D5CFFE5D28F2D0820018D354 /* MBUIFoundationMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBUIFoundationMock.podspec; sourceTree = "<group>"; };
+		D5CFFE5E28F2D0820018D354 /* MBContactsUIInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBContactsUIInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE5F28F2D0820018D354 /* MobileBankPersistenceMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPersistenceMock.podspec; sourceTree = "<group>"; };
+		D5CFFE6028F2D0820018D354 /* ContactlessPaymentIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ContactlessPaymentIO.podspec; sourceTree = "<group>"; };
+		D5CFFE6128F2D0820018D354 /* MarketplaceMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarketplaceMock.podspec; sourceTree = "<group>"; };
+		D5CFFE6228F2D0820018D354 /* MBUIFoundation.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBUIFoundation.podspec; sourceTree = "<group>"; };
+		D5CFFE6328F2D0820018D354 /* AccountWidgetKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountWidgetKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE6428F2D0830018D354 /* ChatIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChatIO.podspec; sourceTree = "<group>"; };
+		D5CFFE6528F2D0830018D354 /* DepositApplication.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DepositApplication.podspec; sourceTree = "<group>"; };
+		D5CFFE6628F2D0830018D354 /* MBMapsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBMapsMock.podspec; sourceTree = "<group>"; };
+		D5CFFE6728F2D0830018D354 /* PaymentsAnalyticsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PaymentsAnalyticsMock.podspec; sourceTree = "<group>"; };
+		D5CFFE6828F2D0830018D354 /* StoriesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoriesMock.podspec; sourceTree = "<group>"; };
+		D5CFFE6928F2D0830018D354 /* TBundleMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TBundleMock.podspec; sourceTree = "<group>"; };
+		D5CFFE6A28F2D0830018D354 /* DolyameIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DolyameIO.podspec; sourceTree = "<group>"; };
+		D5CFFE6B28F2D0830018D354 /* TinkoffSignatureNotification.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TinkoffSignatureNotification.podspec; sourceTree = "<group>"; };
+		D5CFFE6C28F2D0830018D354 /* TranchesIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TranchesIO.podspec; sourceTree = "<group>"; };
+		D5CFFE6D28F2D0830018D354 /* TransferByPhoneMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TransferByPhoneMock.podspec; sourceTree = "<group>"; };
+		D5CFFE6E28F2D0830018D354 /* NFSCacheMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSCacheMock.podspec; sourceTree = "<group>"; };
+		D5CFFE6F28F2D0830018D354 /* ApplicationsMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ApplicationsMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFE7028F2D0830018D354 /* OrderDetailsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OrderDetailsMock.podspec; sourceTree = "<group>"; };
+		D5CFFE7128F2D0830018D354 /* TravelBotInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TravelBotInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE7228F2D0830018D354 /* MBAppServicesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBAppServicesMock.podspec; sourceTree = "<group>"; };
+		D5CFFE7328F2D0830018D354 /* BusinessPaymentsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessPaymentsIO.podspec; sourceTree = "<group>"; };
+		D5CFFE7428F2D0830018D354 /* LifestyleMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LifestyleMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFE7528F2D0830018D354 /* MobileBankPushNotifications.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPushNotifications.podspec; sourceTree = "<group>"; };
+		D5CFFE7628F2D0830018D354 /* OperationsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OperationsIO.podspec; sourceTree = "<group>"; };
+		D5CFFE7728F2D0830018D354 /* ImageProcessingInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ImageProcessingInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE7828F2D0830018D354 /* MvnoIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MvnoIO.podspec; sourceTree = "<group>"; };
+		D5CFFE7928F2D0830018D354 /* AppsInAppIntegration.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppsInAppIntegration.podspec; sourceTree = "<group>"; };
+		D5CFFE7A28F2D0830018D354 /* ReceiptKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReceiptKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE7B28F2D0830018D354 /* SchemesKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SchemesKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFE7C28F2D0830018D354 /* SelfEmploymentMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SelfEmploymentMock.podspec; sourceTree = "<group>"; };
+		D5CFFE7D28F2D0830018D354 /* MobileBankDeeplinkMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankDeeplinkMock.podspec; sourceTree = "<group>"; };
+		D5CFFE7E28F2D0830018D354 /* TPrivateMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TPrivateMock.podspec; sourceTree = "<group>"; };
+		D5CFFE7F28F2D0830018D354 /* MBSharedConfigsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBSharedConfigsMock.podspec; sourceTree = "<group>"; };
+		D5CFFE8028F2D0830018D354 /* AccountSharingMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountSharingMock.podspec; sourceTree = "<group>"; };
+		D5CFFE8128F2D0830018D354 /* MobileBankPushNotificationsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPushNotificationsMock.podspec; sourceTree = "<group>"; };
+		D5CFFE8228F2D0830018D354 /* InvestmentMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = InvestmentMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFE8328F2D0830018D354 /* MobileBankWebSocketsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankWebSocketsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE8428F2D0830018D354 /* PersonalFeedKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PersonalFeedKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE8528F2D0830018D354 /* SelfServiceIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SelfServiceIO.podspec; sourceTree = "<group>"; };
+		D5CFFE8628F2D0830018D354 /* TBundleIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TBundleIO.podspec; sourceTree = "<group>"; };
+		D5CFFE8728F2D0830018D354 /* TrusteeInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TrusteeInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE8828F2D0830018D354 /* MockUtils.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MockUtils.podspec; sourceTree = "<group>"; };
+		D5CFFE8928F2D0830018D354 /* MBAppServicesInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBAppServicesInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE8A28F2D0840018D354 /* AccountWidgetKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountWidgetKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFE8B28F2D0840018D354 /* MobileBankCoreSharedMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankCoreSharedMock.podspec; sourceTree = "<group>"; };
+		D5CFFE8C28F2D0840018D354 /* PaymentsMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PaymentsMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFE8D28F2D0840018D354 /* MobileBankIOMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankIOMock.podspec; sourceTree = "<group>"; };
+		D5CFFE8E28F2D0840018D354 /* Applications.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Applications.podspec; sourceTree = "<group>"; };
+		D5CFFE8F28F2D0840018D354 /* SensitiveModeKitIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SensitiveModeKitIO.podspec; sourceTree = "<group>"; };
+		D5CFFE9028F2D0840018D354 /* TinkoffSignatureNotificationIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TinkoffSignatureNotificationIO.podspec; sourceTree = "<group>"; };
+		D5CFFE9128F2D0840018D354 /* ProfileMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProfileMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFE9228F2D0840018D354 /* MobileBankPlatformMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPlatformMock.podspec; sourceTree = "<group>"; };
+		D5CFFE9328F2D0840018D354 /* MBAlertsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBAlertsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE9428F2D0840018D354 /* MarketingOffersKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarketingOffersKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE9528F2D0840018D354 /* NFSAppealCoordinatorMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSAppealCoordinatorMock.podspec; sourceTree = "<group>"; };
+		D5CFFE9628F2D0840018D354 /* NFSCityPickingCoordinatorInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSCityPickingCoordinatorInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE9728F2D0840018D354 /* CardApplicationIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CardApplicationIO.podspec; sourceTree = "<group>"; };
+		D5CFFE9828F2D0840018D354 /* TravelMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TravelMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFE9928F2D0840018D354 /* OverdraftsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OverdraftsIO.podspec; sourceTree = "<group>"; };
+		D5CFFE9A28F2D0840018D354 /* ReceiptScanningInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReceiptScanningInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE9B28F2D0840018D354 /* FeatureTogglesInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FeatureTogglesInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE9C28F2D0840018D354 /* ConfigKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConfigKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFE9D28F2D0840018D354 /* MvnoMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MvnoMock.podspec; sourceTree = "<group>"; };
+		D5CFFE9E28F2D0840018D354 /* LoggerKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LoggerKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFE9F28F2D0840018D354 /* MobileBankExtensionsServicesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankExtensionsServicesMock.podspec; sourceTree = "<group>"; };
+		D5CFFEA028F2D0840018D354 /* AuthIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AuthIO.podspec; sourceTree = "<group>"; };
+		D5CFFEA128F2D0840018D354 /* ProfileMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProfileMock.podspec; sourceTree = "<group>"; };
+		D5CFFEA228F2D0840018D354 /* SensitiveModeKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SensitiveModeKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFEA328F2D0840018D354 /* StoriesIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoriesIO.podspec; sourceTree = "<group>"; };
+		D5CFFEA428F2D0840018D354 /* CinemaMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CinemaMock.podspec; sourceTree = "<group>"; };
+		D5CFFEA528F2D0840018D354 /* KidsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KidsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEA628F2D0840018D354 /* FeatureToggles.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FeatureToggles.podspec; sourceTree = "<group>"; };
+		D5CFFEA728F2D0840018D354 /* GamificationMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GamificationMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFEA828F2D0840018D354 /* MBTECSComponentsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBTECSComponentsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEA928F2D0840018D354 /* MonoAppRoot.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MonoAppRoot.podspec; sourceTree = "<group>"; };
+		D5CFFEAA28F2D0850018D354 /* DesignIconsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignIconsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEAB28F2D0850018D354 /* GamificationInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GamificationInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEAC28F2D0850018D354 /* DepositsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DepositsIO.podspec; sourceTree = "<group>"; };
+		D5CFFEAD28F2D0850018D354 /* Gamification.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gamification.podspec; sourceTree = "<group>"; };
+		D5CFFEAE28F2D0850018D354 /* NFSEntertainmentsSchemesInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSEntertainmentsSchemesInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEAF28F2D0850018D354 /* ApplicationRootIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ApplicationRootIO.podspec; sourceTree = "<group>"; };
+		D5CFFEB028F2D0850018D354 /* FailureNotificationsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FailureNotificationsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEB128F2D0850018D354 /* ContactlessPaymentMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ContactlessPaymentMock.podspec; sourceTree = "<group>"; };
+		D5CFFEB228F2D0850018D354 /* GamificationMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GamificationMock.podspec; sourceTree = "<group>"; };
+		D5CFFEB328F2D0850018D354 /* EncashmentMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = EncashmentMock.podspec; sourceTree = "<group>"; };
+		D5CFFEB428F2D0850018D354 /* MobileBankVoIPMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankVoIPMock.podspec; sourceTree = "<group>"; };
+		D5CFFEB528F2D0850018D354 /* ApplicationsAnalyticsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ApplicationsAnalyticsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEB628F2D0850018D354 /* OffersKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OffersKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFEB728F2D0850018D354 /* TravelMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TravelMock.podspec; sourceTree = "<group>"; };
+		D5CFFEB828F2D0850018D354 /* RestaurantsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RestaurantsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEB928F2D0850018D354 /* TinkoffUIMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TinkoffUIMock.podspec; sourceTree = "<group>"; };
+		D5CFFEBA28F2D0850018D354 /* BusinessPaymentsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessPaymentsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEBB28F2D0850018D354 /* SearchIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SearchIO.podspec; sourceTree = "<group>"; };
+		D5CFFEBC28F2D0850018D354 /* BusinessCardsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessCardsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEBD28F2D0850018D354 /* MBTECSComponentsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBTECSComponentsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEBE28F2D0850018D354 /* DepositApplicationIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DepositApplicationIO.podspec; sourceTree = "<group>"; };
+		D5CFFEBF28F2D0850018D354 /* ApplicationRootMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ApplicationRootMock.podspec; sourceTree = "<group>"; };
+		D5CFFEC028F2D0850018D354 /* CardApplication.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CardApplication.podspec; sourceTree = "<group>"; };
+		D5CFFEC128F2D0850018D354 /* MarketplaceInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarketplaceInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEC228F2D0850018D354 /* FeedbacksMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FeedbacksMock.podspec; sourceTree = "<group>"; };
+		D5CFFEC328F2D0850018D354 /* BusinessOriginationMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessOriginationMock.podspec; sourceTree = "<group>"; };
+		D5CFFEC428F2D0850018D354 /* MobileBankDeeplinkInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankDeeplinkInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEC528F2D0850018D354 /* PaymentsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PaymentsIO.podspec; sourceTree = "<group>"; };
+		D5CFFEC628F2D0850018D354 /* ApplicationRoot.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ApplicationRoot.podspec; sourceTree = "<group>"; };
+		D5CFFEC728F2D0850018D354 /* JuniorApplication.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JuniorApplication.podspec; sourceTree = "<group>"; };
+		D5CFFEC828F2D0850018D354 /* StoriesRequestsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoriesRequestsIO.podspec; sourceTree = "<group>"; };
+		D5CFFEC928F2D0850018D354 /* TBundleMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TBundleMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFECA28F2D0850018D354 /* UnitTests.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTests.podspec; sourceTree = "<group>"; };
+		D5CFFECB28F2D0850018D354 /* AccountApplication.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountApplication.podspec; sourceTree = "<group>"; };
+		D5CFFECC28F2D0850018D354 /* AutoPaymentsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AutoPaymentsMock.podspec; sourceTree = "<group>"; };
+		D5CFFECD28F2D0850018D354 /* AcquiringSubscriptions.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AcquiringSubscriptions.podspec; sourceTree = "<group>"; };
+		D5CFFECE28F2D0850018D354 /* Resources.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources.podspec; sourceTree = "<group>"; };
+		D5CFFECF28F2D0860018D354 /* ConfirmationKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConfirmationKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFED028F2D0860018D354 /* MBSharedConfigsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBSharedConfigsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFED128F2D0860018D354 /* JuniorIntegration.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JuniorIntegration.podspec; sourceTree = "<group>"; };
+		D5CFFED228F2D0860018D354 /* MobileBankWhoCallsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankWhoCallsIO.podspec; sourceTree = "<group>"; };
+		D5CFFED328F2D0860018D354 /* InvestmentIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = InvestmentIO.podspec; sourceTree = "<group>"; };
+		D5CFFED428F2D0860018D354 /* MobileBankExtensionsServices.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankExtensionsServices.podspec; sourceTree = "<group>"; };
+		D5CFFED528F2D0860018D354 /* HeightenedCashbacksMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = HeightenedCashbacksMock.podspec; sourceTree = "<group>"; };
+		D5CFFED628F2D0860018D354 /* LoyaltyMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LoyaltyMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFED728F2D0860018D354 /* TPrivateIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TPrivateIO.podspec; sourceTree = "<group>"; };
+		D5CFFED828F2D0860018D354 /* DesignIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignIO.podspec; sourceTree = "<group>"; };
+		D5CFFED928F2D0860018D354 /* OffersKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OffersKit.podspec; sourceTree = "<group>"; };
+		D5CFFEDA28F2D0860018D354 /* SmartFieldsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SmartFieldsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEDB28F2D0860018D354 /* FinesSDKAdapterMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FinesSDKAdapterMock.podspec; sourceTree = "<group>"; };
+		D5CFFEDC28F2D0860018D354 /* MobileBankTinkoffSecureMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankTinkoffSecureMock.podspec; sourceTree = "<group>"; };
+		D5CFFEDD28F2D0860018D354 /* BusinessLoansMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessLoansMock.podspec; sourceTree = "<group>"; };
+		D5CFFEDE28F2D0860018D354 /* MBContactsUIMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBContactsUIMock.podspec; sourceTree = "<group>"; };
+		D5CFFEDF28F2D0860018D354 /* KIFTests.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KIFTests.podspec; sourceTree = "<group>"; };
+		D5CFFEE028F2D0860018D354 /* CurrencyRatesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CurrencyRatesMock.podspec; sourceTree = "<group>"; };
+		D5CFFEE128F2D0860018D354 /* MobileBankPerformanceIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPerformanceIO.podspec; sourceTree = "<group>"; };
+		D5CFFEE228F2D0860018D354 /* MobileBankPushNotificationsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPushNotificationsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEE328F2D0860018D354 /* MobileBankPushNotificationsService.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPushNotificationsService.podspec; sourceTree = "<group>"; };
+		D5CFFEE428F2D0860018D354 /* MBAlertsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBAlertsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEE528F2D0860018D354 /* PremiumServicesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PremiumServicesMock.podspec; sourceTree = "<group>"; };
+		D5CFFEE628F2D0860018D354 /* MarketingCommunicationsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarketingCommunicationsIO.podspec; sourceTree = "<group>"; };
+		D5CFFEE728F2D0860018D354 /* SearchCoreInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SearchCoreInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEE828F2D0860018D354 /* LifestyleKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LifestyleKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEE928F2D0860018D354 /* TrusteeMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TrusteeMock.podspec; sourceTree = "<group>"; };
+		D5CFFEEA28F2D0860018D354 /* NFSCityPickingCoordinatorMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSCityPickingCoordinatorMock.podspec; sourceTree = "<group>"; };
+		D5CFFEEB28F2D0860018D354 /* MBCommonServicesInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBCommonServicesInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEEC28F2D0860018D354 /* SmartFlowKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SmartFlowKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFEED28F2D0860018D354 /* AccountDetailsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountDetailsIO.podspec; sourceTree = "<group>"; };
+		D5CFFEEE28F2D0860018D354 /* ApplicationsAnalytics.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ApplicationsAnalytics.podspec; sourceTree = "<group>"; };
+		D5CFFEEF28F2D0860018D354 /* MBWidgetsLocalization.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBWidgetsLocalization.podspec; sourceTree = "<group>"; };
+		D5CFFEF028F2D0860018D354 /* AccountMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountMock.podspec; sourceTree = "<group>"; };
+		D5CFFEF128F2D0860018D354 /* SelfServiceMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SelfServiceMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFEF228F2D0860018D354 /* MarketingCommunicationsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarketingCommunicationsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEF328F2D0860018D354 /* TransferByPhoneInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TransferByPhoneInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEF428F2D0860018D354 /* ConfirmationKitIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConfirmationKitIO.podspec; sourceTree = "<group>"; };
+		D5CFFEF528F2D0860018D354 /* NFSPaymentsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSPaymentsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEF628F2D0860018D354 /* AcquiringSubscriptionsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AcquiringSubscriptionsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEF728F2D0860018D354 /* LoyaltyMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LoyaltyMock.podspec; sourceTree = "<group>"; };
+		D5CFFEF828F2D0860018D354 /* NFSPaymentsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSPaymentsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFEF928F2D0860018D354 /* SmartFormsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SmartFormsMock.podspec; sourceTree = "<group>"; };
+		D5CFFEFA28F2D0860018D354 /* AccountSharingIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountSharingIO.podspec; sourceTree = "<group>"; };
+		D5CFFEFB28F2D0870018D354 /* ConfirmationKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConfirmationKit.podspec; sourceTree = "<group>"; };
+		D5CFFEFC28F2D0870018D354 /* InsuranceMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = InsuranceMock.podspec; sourceTree = "<group>"; };
+		D5CFFEFD28F2D0870018D354 /* MobileBankTinkoffSecureIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankTinkoffSecureIO.podspec; sourceTree = "<group>"; };
+		D5CFFEFE28F2D0870018D354 /* MarketingOffersMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarketingOffersMock.podspec; sourceTree = "<group>"; };
+		D5CFFEFF28F2D0870018D354 /* LifestyleMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LifestyleMock.podspec; sourceTree = "<group>"; };
+		D5CFFF0028F2D0870018D354 /* MBUIModulesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBUIModulesMock.podspec; sourceTree = "<group>"; };
+		D5CFFF0128F2D0870018D354 /* NFSConfigInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSConfigInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF0228F2D0870018D354 /* LoyaltyIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LoyaltyIO.podspec; sourceTree = "<group>"; };
+		D5CFFF0328F2D0870018D354 /* MBLocalization.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBLocalization.podspec; sourceTree = "<group>"; };
+		D5CFFF0428F2D0870018D354 /* EventsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = EventsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF0528F2D0870018D354 /* NFSAfishaMainInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSAfishaMainInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF0628F2D0870018D354 /* NFSConfigMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSConfigMock.podspec; sourceTree = "<group>"; };
+		D5CFFF0728F2D0870018D354 /* InsuranceIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = InsuranceIO.podspec; sourceTree = "<group>"; };
+		D5CFFF0828F2D0870018D354 /* LoggerKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LoggerKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF0928F2D0870018D354 /* AccountIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountIO.podspec; sourceTree = "<group>"; };
+		D5CFFF0A28F2D0870018D354 /* BusinessOrigination.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessOrigination.podspec; sourceTree = "<group>"; };
+		D5CFFF0B28F2D0870018D354 /* DesignMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF0C28F2D0870018D354 /* PlatformFeatureToggles.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PlatformFeatureToggles.podspec; sourceTree = "<group>"; };
+		D5CFFF0D28F2D0870018D354 /* MBLocalizationKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBLocalizationKit.podspec; sourceTree = "<group>"; };
+		D5CFFF0E28F2D0870018D354 /* MobileBankPerformanceMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPerformanceMock.podspec; sourceTree = "<group>"; };
+		D5CFFF0F28F2D0870018D354 /* AccountApplicationIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountApplicationIO.podspec; sourceTree = "<group>"; };
+		D5CFFF1028F2D0870018D354 /* NFSAppAvailabilityMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSAppAvailabilityMock.podspec; sourceTree = "<group>"; };
+		D5CFFF1128F2D0870018D354 /* OperationsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OperationsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF1228F2D0870018D354 /* OverdraftsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OverdraftsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF1328F2D0870018D354 /* BusinessAdapterMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessAdapterMock.podspec; sourceTree = "<group>"; };
+		D5CFFF1428F2D0870018D354 /* AutoPaymentsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AutoPaymentsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF1528F2D0870018D354 /* SelfEmploymentIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SelfEmploymentIO.podspec; sourceTree = "<group>"; };
+		D5CFFF1628F2D0870018D354 /* MobileBankNetworkMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankNetworkMock.podspec; sourceTree = "<group>"; };
+		D5CFFF1728F2D0870018D354 /* TinkoffBusinessMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TinkoffBusinessMock.podspec; sourceTree = "<group>"; };
+		D5CFFF1828F2D0870018D354 /* FinHealthIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FinHealthIO.podspec; sourceTree = "<group>"; };
+		D5CFFF1928F2D0870018D354 /* PersonalFeedIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PersonalFeedIO.podspec; sourceTree = "<group>"; };
+		D5CFFF1A28F2D0870018D354 /* MBSearchIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBSearchIO.podspec; sourceTree = "<group>"; };
+		D5CFFF1B28F2D0870018D354 /* JuniorIntegrationIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JuniorIntegrationIO.podspec; sourceTree = "<group>"; };
+		D5CFFF1C28F2D0870018D354 /* AccountDetailsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountDetailsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF1D28F2D0870018D354 /* MobileBankIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankIO.podspec; sourceTree = "<group>"; };
+		D5CFFF1E28F2D0870018D354 /* AccountCardsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountCardsIO.podspec; sourceTree = "<group>"; };
+		D5CFFF1F28F2D0870018D354 /* RoundingsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RoundingsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF2028F2D0870018D354 /* SelfServiceMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SelfServiceMock.podspec; sourceTree = "<group>"; };
+		D5CFFF2128F2D0870018D354 /* PreciousMetalMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreciousMetalMock.podspec; sourceTree = "<group>"; };
+		D5CFFF2228F2D0870018D354 /* PersonalFeedMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PersonalFeedMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF2328F2D0870018D354 /* BusinessCardsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessCardsIO.podspec; sourceTree = "<group>"; };
+		D5CFFF2428F2D0880018D354 /* ProductsHomeWidgetToolsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProductsHomeWidgetToolsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF2528F2D0880018D354 /* MobileBankExtensionsServicesIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankExtensionsServicesIO.podspec; sourceTree = "<group>"; };
+		D5CFFF2628F2D0880018D354 /* MobileBankPushNotificationsUI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPushNotificationsUI.podspec; sourceTree = "<group>"; };
+		D5CFFF2728F2D0880018D354 /* ImageProcessingMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ImageProcessingMock.podspec; sourceTree = "<group>"; };
+		D5CFFF2828F2D0880018D354 /* SearchMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SearchMock.podspec; sourceTree = "<group>"; };
+		D5CFFF2928F2D0880018D354 /* OperationsMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OperationsMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF2A28F2D0880018D354 /* sample.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.podspec; sourceTree = "<group>"; };
+		D5CFFF2B28F2D0880018D354 /* PaymentRisksMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PaymentRisksMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF2C28F2D0880018D354 /* BusinessLoansIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessLoansIO.podspec; sourceTree = "<group>"; };
+		D5CFFF2D28F2D0880018D354 /* KidsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KidsIO.podspec; sourceTree = "<group>"; };
+		D5CFFF2E28F2D0880018D354 /* BusinessOriginationIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessOriginationIO.podspec; sourceTree = "<group>"; };
+		D5CFFF2F28F2D0880018D354 /* DocumentsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DocumentsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF3028F2D0880018D354 /* MeetingAppointmentInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MeetingAppointmentInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF3128F2D0880018D354 /* UserInfoServicesIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserInfoServicesIO.podspec; sourceTree = "<group>"; };
+		D5CFFF3228F2D0880018D354 /* CreditAccountsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CreditAccountsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF3328F2D0880018D354 /* AccountApplicationMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccountApplicationMock.podspec; sourceTree = "<group>"; };
+		D5CFFF3428F2D0880018D354 /* PersonalFeedKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PersonalFeedKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFF3528F2D0880018D354 /* HeightenedCashbacksIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = HeightenedCashbacksIO.podspec; sourceTree = "<group>"; };
+		D5CFFF3628F2D0880018D354 /* TravelIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TravelIO.podspec; sourceTree = "<group>"; };
+		D5CFFF3728F2D0880018D354 /* SchemesKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SchemesKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF3828F2D0880018D354 /* TPrivateAvailabilityInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TPrivateAvailabilityInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF3928F2D0880018D354 /* ProductDetailsKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProductDetailsKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFF3A28F2D0880018D354 /* DesignMoreIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignMoreIO.podspec; sourceTree = "<group>"; };
+		D5CFFF3B28F2D0880018D354 /* NFSAppealCoordinatorInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSAppealCoordinatorInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF3C28F2D0880018D354 /* CreditMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CreditMock.podspec; sourceTree = "<group>"; };
+		D5CFFF3D28F2D0880018D354 /* FailureNotifications.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FailureNotifications.podspec; sourceTree = "<group>"; };
+		D5CFFF3E28F2D0880018D354 /* OffersKitCoreUtils.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OffersKitCoreUtils.podspec; sourceTree = "<group>"; };
+		D5CFFF3F28F2D0880018D354 /* PaymentsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PaymentsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF4028F2D0880018D354 /* ReceiptScanningMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReceiptScanningMock.podspec; sourceTree = "<group>"; };
+		D5CFFF4128F2D0880018D354 /* RoundingsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RoundingsIO.podspec; sourceTree = "<group>"; };
+		D5CFFF4228F2D0880018D354 /* BringFriendIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BringFriendIO.podspec; sourceTree = "<group>"; };
+		D5CFFF4328F2D0880018D354 /* CurrencyRatesIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CurrencyRatesIO.podspec; sourceTree = "<group>"; };
+		D5CFFF4428F2D0880018D354 /* DepositsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DepositsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF4528F2D0880018D354 /* MBLocalizationKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBLocalizationKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF4628F2D0880018D354 /* DesignMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignMock.podspec; sourceTree = "<group>"; };
+		D5CFFF4728F2D0880018D354 /* MobileBankUIInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankUIInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF4828F2D0880018D354 /* NFSAppAvailabilityInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSAppAvailabilityInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF4928F2D0880018D354 /* Operations.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Operations.podspec; sourceTree = "<group>"; };
+		D5CFFF4A28F2D0880018D354 /* PersonalFeedMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PersonalFeedMock.podspec; sourceTree = "<group>"; };
+		D5CFFF4B28F2D0880018D354 /* MBLocalizationKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBLocalizationKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFF4C28F2D0880018D354 /* MobileBankVoIPIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankVoIPIO.podspec; sourceTree = "<group>"; };
+		D5CFFF4D28F2D0890018D354 /* PremiumServicesIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PremiumServicesIO.podspec; sourceTree = "<group>"; };
+		D5CFFF4E28F2D0890018D354 /* JuniorIntegrationMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JuniorIntegrationMock.podspec; sourceTree = "<group>"; };
+		D5CFFF4F28F2D0890018D354 /* ProductDetailsKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProductDetailsKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF5028F2D0890018D354 /* SnapshotTests.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SnapshotTests.podspec; sourceTree = "<group>"; };
+		D5CFFF5128F2D0890018D354 /* FinanceIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FinanceIO.podspec; sourceTree = "<group>"; };
+		D5CFFF5228F2D0890018D354 /* ContactsKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ContactsKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFF5328F2D0890018D354 /* BusinessPlatformMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessPlatformMock.podspec; sourceTree = "<group>"; };
+		D5CFFF5428F2D0890018D354 /* ConfigKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConfigKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFF5528F2D0890018D354 /* MBMapsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBMapsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF5628F2D0890018D354 /* TinkoffMockStrappingUtils.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TinkoffMockStrappingUtils.podspec; sourceTree = "<group>"; };
+		D5CFFF5728F2D0890018D354 /* SearchCoreMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SearchCoreMock.podspec; sourceTree = "<group>"; };
+		D5CFFF5828F2D0890018D354 /* FeatureTogglesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FeatureTogglesMock.podspec; sourceTree = "<group>"; };
+		D5CFFF5928F2D0890018D354 /* NFSAfishaMainMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSAfishaMainMock.podspec; sourceTree = "<group>"; };
+		D5CFFF5A28F2D0890018D354 /* CommentsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CommentsIO.podspec; sourceTree = "<group>"; };
+		D5CFFF5B28F2D0890018D354 /* MBCommonServicesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBCommonServicesMock.podspec; sourceTree = "<group>"; };
+		D5CFFF5C28F2D0890018D354 /* ReceiptKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReceiptKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFF5D28F2D0890018D354 /* ProductsHomeIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProductsHomeIO.podspec; sourceTree = "<group>"; };
+		D5CFFF5E28F2D0890018D354 /* DepositsMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DepositsMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF5F28F2D0890018D354 /* ApplicationsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ApplicationsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF6028F2D0890018D354 /* CreditIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CreditIO.podspec; sourceTree = "<group>"; };
+		D5CFFF6128F2D0890018D354 /* DesignMoreMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignMoreMock.podspec; sourceTree = "<group>"; };
+		D5CFFF6228F2D0890018D354 /* UserInfoServicesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserInfoServicesMock.podspec; sourceTree = "<group>"; };
+		D5CFFF6328F2D0890018D354 /* AuthMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AuthMock.podspec; sourceTree = "<group>"; };
+		D5CFFF6428F2D0890018D354 /* ProfileIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProfileIO.podspec; sourceTree = "<group>"; };
+		D5CFFF6528F2D0890018D354 /* ChatMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChatMock.podspec; sourceTree = "<group>"; };
+		D5CFFF6628F2D0890018D354 /* PaymentsAnalyticsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PaymentsAnalyticsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF6728F2D0890018D354 /* FinHealthMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FinHealthMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF6828F2D0890018D354 /* EventsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = EventsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF6928F2D0890018D354 /* InvestmentMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = InvestmentMock.podspec; sourceTree = "<group>"; };
+		D5CFFF6A28F2D0890018D354 /* MobileBankWebSocketsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankWebSocketsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF6B28F2D0890018D354 /* AppExtensionsShared.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppExtensionsShared.podspec; sourceTree = "<group>"; };
+		D5CFFF6C28F2D0890018D354 /* CreditAccountsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CreditAccountsIO.podspec; sourceTree = "<group>"; };
+		D5CFFF6D28F2D0890018D354 /* OrdersKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OrdersKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF6E28F2D0890018D354 /* BusinessPlatformAdapterIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessPlatformAdapterIO.podspec; sourceTree = "<group>"; };
+		D5CFFF6F28F2D0890018D354 /* OrdersKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OrdersKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFF7028F2D0890018D354 /* JuniorApplicationIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JuniorApplicationIO.podspec; sourceTree = "<group>"; };
+		D5CFFF7128F2D0890018D354 /* OrderDetailsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OrderDetailsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF7228F2D0890018D354 /* PlatformMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PlatformMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF7328F2D0890018D354 /* JuniorApplicationMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JuniorApplicationMock.podspec; sourceTree = "<group>"; };
+		D5CFFF7428F2D0890018D354 /* MobileBankUIMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankUIMock.podspec; sourceTree = "<group>"; };
+		D5CFFF7528F2D08A0018D354 /* PreciousMetal.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreciousMetal.podspec; sourceTree = "<group>"; };
+		D5CFFF7628F2D08A0018D354 /* TranchesMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TranchesMock.podspec; sourceTree = "<group>"; };
+		D5CFFF7728F2D08A0018D354 /* MobileBankWhoCallsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankWhoCallsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF7828F2D08A0018D354 /* EncashmentIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = EncashmentIO.podspec; sourceTree = "<group>"; };
+		D5CFFF7928F2D08A0018D354 /* DebugMenuMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DebugMenuMock.podspec; sourceTree = "<group>"; };
+		D5CFFF7A28F2D08A0018D354 /* FailureNotificationsInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FailureNotificationsInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF7B28F2D08A0018D354 /* DesignIconsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignIconsIO.podspec; sourceTree = "<group>"; };
+		D5CFFF7C28F2D08A0018D354 /* FinHealthMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FinHealthMock.podspec; sourceTree = "<group>"; };
+		D5CFFF7D28F2D08A0018D354 /* FinesSDKAdapterInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FinesSDKAdapterInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF7E28F2D08A0018D354 /* RestaurantsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RestaurantsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF7F28F2D08A0018D354 /* DepositApplicationMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DepositApplicationMock.podspec; sourceTree = "<group>"; };
+		D5CFFF8028F2D08A0018D354 /* AcquiringSubscriptionsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AcquiringSubscriptionsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF8128F2D08A0018D354 /* BusinessPlatformIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BusinessPlatformIO.podspec; sourceTree = "<group>"; };
+		D5CFFF8228F2D08A0018D354 /* MarketingCommunications.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarketingCommunications.podspec; sourceTree = "<group>"; };
+		D5CFFF8328F2D08A0018D354 /* CommentsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CommentsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF8428F2D08A0018D354 /* MobileBankCoreMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankCoreMock.podspec; sourceTree = "<group>"; };
+		D5CFFF8528F2D08A0018D354 /* MBUIModulesInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBUIModulesInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF8628F2D08A0018D354 /* CinemaInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CinemaInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF8728F2D08A0018D354 /* LifestyleIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LifestyleIO.podspec; sourceTree = "<group>"; };
+		D5CFFF8828F2D08A0018D354 /* InsuranceMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = InsuranceMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF8928F2D08A0018D354 /* MonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF8A28F2D08A0018D354 /* JuniorMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JuniorMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF8B28F2D08A0018D354 /* MeetingAppointmentMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MeetingAppointmentMock.podspec; sourceTree = "<group>"; };
+		D5CFFF8C28F2D08A0018D354 /* SmartFlowKitInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SmartFlowKitInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF8D28F2D08A0018D354 /* LifestyleKitMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LifestyleKitMock.podspec; sourceTree = "<group>"; };
+		D5CFFF8E28F2D08A0018D354 /* NFSCacheInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFSCacheInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF8F28F2D08A0018D354 /* PreciousMetalInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreciousMetalInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF9028F2D08A0018D354 /* SmartFlowKitMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SmartFlowKitMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF9128F2D08A0018D354 /* ContactlessPaymentMonoApp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ContactlessPaymentMonoApp.podspec; sourceTree = "<group>"; };
+		D5CFFF9228F2D08A0018D354 /* TPrivateAvailabilityMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TPrivateAvailabilityMock.podspec; sourceTree = "<group>"; };
+		D5CFFF9328F2D08A0018D354 /* FeedbacksInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FeedbacksInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF9428F2D08A0018D354 /* EcosystemSecurityInterfaces.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = EcosystemSecurityInterfaces.podspec; sourceTree = "<group>"; };
+		D5CFFF9528F2D08A0018D354 /* ApplicationsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ApplicationsIO.podspec; sourceTree = "<group>"; };
+		D5CFFF9628F2D08A0018D354 /* MobileBankPushNotificationsFeatureToggles.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankPushNotificationsFeatureToggles.podspec; sourceTree = "<group>"; };
+		D5CFFF9728F2D08A0018D354 /* CardApplicationMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CardApplicationMock.podspec; sourceTree = "<group>"; };
+		D5CFFF9828F2D08A0018D354 /* DocumentsIO.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DocumentsIO.podspec; sourceTree = "<group>"; };
+		D5CFFF9928F2D08B0018D354 /* MobileBankAnalyticsMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MobileBankAnalyticsMock.podspec; sourceTree = "<group>"; };
+		D5CFFF9A28F2FB020018D354 /* GraphVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphVisualizer.swift; sourceTree = "<group>"; };
 		OBJ_100 /* LexerIndexedCustomAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexerIndexedCustomAction.swift; sourceTree = "<group>"; };
 		OBJ_101 /* LexerModeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexerModeAction.swift; sourceTree = "<group>"; };
 		OBJ_102 /* LexerMoreAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexerMoreAction.swift; sourceTree = "<group>"; };
@@ -664,6 +990,330 @@
 		D594FECA28F224640034E641 /* podspecs-proccessed */ = {
 			isa = PBXGroup;
 			children = (
+				D5CFFECB28F2D0850018D354 /* AccountApplication.podspec */,
+				D5CFFF0F28F2D0870018D354 /* AccountApplicationIO.podspec */,
+				D5CFFF3328F2D0880018D354 /* AccountApplicationMock.podspec */,
+				D5CFFF1E28F2D0870018D354 /* AccountCardsIO.podspec */,
+				D5CFFE5928F2D0820018D354 /* AccountCardsMock.podspec */,
+				D5CFFEED28F2D0860018D354 /* AccountDetailsIO.podspec */,
+				D5CFFF1C28F2D0870018D354 /* AccountDetailsMock.podspec */,
+				D5CFFF0928F2D0870018D354 /* AccountIO.podspec */,
+				D5CFFEF028F2D0860018D354 /* AccountMock.podspec */,
+				D5CFFEFA28F2D0860018D354 /* AccountSharingIO.podspec */,
+				D5CFFE8028F2D0830018D354 /* AccountSharingMock.podspec */,
+				D5CFFE6328F2D0820018D354 /* AccountWidgetKitInterfaces.podspec */,
+				D5CFFE8A28F2D0840018D354 /* AccountWidgetKitMock.podspec */,
+				D5CFFECD28F2D0850018D354 /* AcquiringSubscriptions.podspec */,
+				D5CFFEF628F2D0860018D354 /* AcquiringSubscriptionsInterfaces.podspec */,
+				D5CFFF8028F2D08A0018D354 /* AcquiringSubscriptionsMock.podspec */,
+				D5CFFF6B28F2D0890018D354 /* AppExtensionsShared.podspec */,
+				D5CFFEC628F2D0850018D354 /* ApplicationRoot.podspec */,
+				D5CFFEAF28F2D0850018D354 /* ApplicationRootIO.podspec */,
+				D5CFFEBF28F2D0850018D354 /* ApplicationRootMock.podspec */,
+				D5CFFE8E28F2D0840018D354 /* Applications.podspec */,
+				D5CFFEEE28F2D0860018D354 /* ApplicationsAnalytics.podspec */,
+				D5CFFEB528F2D0850018D354 /* ApplicationsAnalyticsMock.podspec */,
+				D5CFFF9528F2D08A0018D354 /* ApplicationsIO.podspec */,
+				D5CFFF5F28F2D0890018D354 /* ApplicationsMock.podspec */,
+				D5CFFE6F28F2D0830018D354 /* ApplicationsMonoApp.podspec */,
+				D5CFFE7928F2D0830018D354 /* AppsInAppIntegration.podspec */,
+				D5CFFEA028F2D0840018D354 /* AuthIO.podspec */,
+				D5CFFF6328F2D0890018D354 /* AuthMock.podspec */,
+				D5CFFF1428F2D0870018D354 /* AutoPaymentsInterfaces.podspec */,
+				D5CFFECC28F2D0850018D354 /* AutoPaymentsMock.podspec */,
+				D5CFFF4228F2D0880018D354 /* BringFriendIO.podspec */,
+				D5CFFE5C28F2D0820018D354 /* BringFriendMock.podspec */,
+				D5CFFF1328F2D0870018D354 /* BusinessAdapterMock.podspec */,
+				D5CFFF2328F2D0870018D354 /* BusinessCardsIO.podspec */,
+				D5CFFEBC28F2D0850018D354 /* BusinessCardsMock.podspec */,
+				D5CFFF2C28F2D0880018D354 /* BusinessLoansIO.podspec */,
+				D5CFFEDD28F2D0860018D354 /* BusinessLoansMock.podspec */,
+				D5CFFF0A28F2D0870018D354 /* BusinessOrigination.podspec */,
+				D5CFFF2E28F2D0880018D354 /* BusinessOriginationIO.podspec */,
+				D5CFFEC328F2D0850018D354 /* BusinessOriginationMock.podspec */,
+				D5CFFE7328F2D0830018D354 /* BusinessPaymentsIO.podspec */,
+				D5CFFEBA28F2D0850018D354 /* BusinessPaymentsMock.podspec */,
+				D5CFFF6E28F2D0890018D354 /* BusinessPlatformAdapterIO.podspec */,
+				D5CFFF8128F2D08A0018D354 /* BusinessPlatformIO.podspec */,
+				D5CFFF5328F2D0890018D354 /* BusinessPlatformMock.podspec */,
+				D5CFFEC028F2D0850018D354 /* CardApplication.podspec */,
+				D5CFFE9728F2D0840018D354 /* CardApplicationIO.podspec */,
+				D5CFFF9728F2D08A0018D354 /* CardApplicationMock.podspec */,
+				D5CFFE6428F2D0830018D354 /* ChatIO.podspec */,
+				D5CFFF6528F2D0890018D354 /* ChatMock.podspec */,
+				D5CFFF8628F2D08A0018D354 /* CinemaInterfaces.podspec */,
+				D5CFFEA428F2D0840018D354 /* CinemaMock.podspec */,
+				D5CFFF5A28F2D0890018D354 /* CommentsIO.podspec */,
+				D5CFFF8328F2D08A0018D354 /* CommentsMock.podspec */,
+				D5CFFE9C28F2D0840018D354 /* ConfigKitInterfaces.podspec */,
+				D5CFFF5428F2D0890018D354 /* ConfigKitMock.podspec */,
+				D5CFFEFB28F2D0870018D354 /* ConfirmationKit.podspec */,
+				D5CFFEF428F2D0860018D354 /* ConfirmationKitIO.podspec */,
+				D5CFFECF28F2D0860018D354 /* ConfirmationKitMock.podspec */,
+				D5CFFE6028F2D0820018D354 /* ContactlessPaymentIO.podspec */,
+				D5CFFEB128F2D0850018D354 /* ContactlessPaymentMock.podspec */,
+				D5CFFF9128F2D08A0018D354 /* ContactlessPaymentMonoApp.podspec */,
+				D5CFFF5228F2D0890018D354 /* ContactsKitMock.podspec */,
+				D5CFFF6C28F2D0890018D354 /* CreditAccountsIO.podspec */,
+				D5CFFF3228F2D0880018D354 /* CreditAccountsMock.podspec */,
+				D5CFFF6028F2D0890018D354 /* CreditIO.podspec */,
+				D5CFFF3C28F2D0880018D354 /* CreditMock.podspec */,
+				D5CFFF4328F2D0880018D354 /* CurrencyRatesIO.podspec */,
+				D5CFFEE028F2D0860018D354 /* CurrencyRatesMock.podspec */,
+				D5CFFF7928F2D08A0018D354 /* DebugMenuMock.podspec */,
+				D5CFFE6528F2D0830018D354 /* DepositApplication.podspec */,
+				D5CFFEBE28F2D0850018D354 /* DepositApplicationIO.podspec */,
+				D5CFFF7F28F2D08A0018D354 /* DepositApplicationMock.podspec */,
+				D5CFFEAC28F2D0850018D354 /* DepositsIO.podspec */,
+				D5CFFF4428F2D0880018D354 /* DepositsMock.podspec */,
+				D5CFFF5E28F2D0890018D354 /* DepositsMonoApp.podspec */,
+				D5CFFF7B28F2D08A0018D354 /* DesignIconsIO.podspec */,
+				D5CFFEAA28F2D0850018D354 /* DesignIconsMock.podspec */,
+				D5CFFED828F2D0860018D354 /* DesignIO.podspec */,
+				D5CFFF4628F2D0880018D354 /* DesignMock.podspec */,
+				D5CFFF0B28F2D0870018D354 /* DesignMonoApp.podspec */,
+				D5CFFF3A28F2D0880018D354 /* DesignMoreIO.podspec */,
+				D5CFFF6128F2D0890018D354 /* DesignMoreMock.podspec */,
+				D5CFFF9828F2D08A0018D354 /* DocumentsIO.podspec */,
+				D5CFFF2F28F2D0880018D354 /* DocumentsMock.podspec */,
+				D5CFFE6A28F2D0830018D354 /* DolyameIO.podspec */,
+				D5CFFF9428F2D08A0018D354 /* EcosystemSecurityInterfaces.podspec */,
+				D5CFFF7828F2D08A0018D354 /* EncashmentIO.podspec */,
+				D5CFFEB328F2D0850018D354 /* EncashmentMock.podspec */,
+				D5CFFF6828F2D0890018D354 /* EventsInterfaces.podspec */,
+				D5CFFF0428F2D0870018D354 /* EventsMock.podspec */,
+				D5CFFF3D28F2D0880018D354 /* FailureNotifications.podspec */,
+				D5CFFF7A28F2D08A0018D354 /* FailureNotificationsInterfaces.podspec */,
+				D5CFFEB028F2D0850018D354 /* FailureNotificationsMock.podspec */,
+				D5CFFEA628F2D0840018D354 /* FeatureToggles.podspec */,
+				D5CFFE9B28F2D0840018D354 /* FeatureTogglesInterfaces.podspec */,
+				D5CFFF5828F2D0890018D354 /* FeatureTogglesMock.podspec */,
+				D5CFFF9328F2D08A0018D354 /* FeedbacksInterfaces.podspec */,
+				D5CFFEC228F2D0850018D354 /* FeedbacksMock.podspec */,
+				D5CFFF5128F2D0890018D354 /* FinanceIO.podspec */,
+				D5CFFE5828F2D0820018D354 /* FinanceMock.podspec */,
+				D5CFFF7D28F2D08A0018D354 /* FinesSDKAdapterInterfaces.podspec */,
+				D5CFFEDB28F2D0860018D354 /* FinesSDKAdapterMock.podspec */,
+				D5CFFF1828F2D0870018D354 /* FinHealthIO.podspec */,
+				D5CFFF7C28F2D08A0018D354 /* FinHealthMock.podspec */,
+				D5CFFF6728F2D0890018D354 /* FinHealthMonoApp.podspec */,
+				D5CFFEAD28F2D0850018D354 /* Gamification.podspec */,
+				D5CFFEAB28F2D0850018D354 /* GamificationInterfaces.podspec */,
+				D5CFFEB228F2D0850018D354 /* GamificationMock.podspec */,
+				D5CFFEA728F2D0840018D354 /* GamificationMonoApp.podspec */,
+				D5CFFF3528F2D0880018D354 /* HeightenedCashbacksIO.podspec */,
+				D5CFFED528F2D0860018D354 /* HeightenedCashbacksMock.podspec */,
+				D5CFFE7728F2D0830018D354 /* ImageProcessingInterfaces.podspec */,
+				D5CFFF2728F2D0880018D354 /* ImageProcessingMock.podspec */,
+				D5CFFF0728F2D0870018D354 /* InsuranceIO.podspec */,
+				D5CFFEFC28F2D0870018D354 /* InsuranceMock.podspec */,
+				D5CFFF8828F2D08A0018D354 /* InsuranceMonoApp.podspec */,
+				D5CFFED328F2D0860018D354 /* InvestmentIO.podspec */,
+				D5CFFF6928F2D0890018D354 /* InvestmentMock.podspec */,
+				D5CFFE8228F2D0830018D354 /* InvestmentMonoApp.podspec */,
+				D5CFFEC728F2D0850018D354 /* JuniorApplication.podspec */,
+				D5CFFF7028F2D0890018D354 /* JuniorApplicationIO.podspec */,
+				D5CFFF7328F2D0890018D354 /* JuniorApplicationMock.podspec */,
+				D5CFFED128F2D0860018D354 /* JuniorIntegration.podspec */,
+				D5CFFF1B28F2D0870018D354 /* JuniorIntegrationIO.podspec */,
+				D5CFFF4E28F2D0890018D354 /* JuniorIntegrationMock.podspec */,
+				D5CFFF8A28F2D08A0018D354 /* JuniorMonoApp.podspec */,
+				D5CFFF2D28F2D0880018D354 /* KidsIO.podspec */,
+				D5CFFEA528F2D0840018D354 /* KidsMock.podspec */,
+				D5CFFEDF28F2D0860018D354 /* KIFTests.podspec */,
+				D5CFFF8728F2D08A0018D354 /* LifestyleIO.podspec */,
+				D5CFFEE828F2D0860018D354 /* LifestyleKitInterfaces.podspec */,
+				D5CFFF8D28F2D08A0018D354 /* LifestyleKitMock.podspec */,
+				D5CFFEFF28F2D0870018D354 /* LifestyleMock.podspec */,
+				D5CFFE7428F2D0830018D354 /* LifestyleMonoApp.podspec */,
+				D5CFFF0828F2D0870018D354 /* LoggerKitInterfaces.podspec */,
+				D5CFFE9E28F2D0840018D354 /* LoggerKitMock.podspec */,
+				D5CFFF0228F2D0870018D354 /* LoyaltyIO.podspec */,
+				D5CFFEF728F2D0860018D354 /* LoyaltyMock.podspec */,
+				D5CFFED628F2D0860018D354 /* LoyaltyMonoApp.podspec */,
+				D5CFFF8228F2D08A0018D354 /* MarketingCommunications.podspec */,
+				D5CFFEE628F2D0860018D354 /* MarketingCommunicationsIO.podspec */,
+				D5CFFEF228F2D0860018D354 /* MarketingCommunicationsMock.podspec */,
+				D5CFFE5628F2D0820018D354 /* MarketingFeatureToggles.podspec */,
+				D5CFFE9428F2D0840018D354 /* MarketingOffersKitInterfaces.podspec */,
+				D5CFFEFE28F2D0870018D354 /* MarketingOffersMock.podspec */,
+				D5CFFEC128F2D0850018D354 /* MarketplaceInterfaces.podspec */,
+				D5CFFE6128F2D0820018D354 /* MarketplaceMock.podspec */,
+				D5CFFE5728F2D0820018D354 /* MarketplaceMonoApp.podspec */,
+				D5CFFE9328F2D0840018D354 /* MBAlertsInterfaces.podspec */,
+				D5CFFEE428F2D0860018D354 /* MBAlertsMock.podspec */,
+				D5CFFE8928F2D0830018D354 /* MBAppServicesInterfaces.podspec */,
+				D5CFFE7228F2D0830018D354 /* MBAppServicesMock.podspec */,
+				D5CFFEEB28F2D0860018D354 /* MBCommonServicesInterfaces.podspec */,
+				D5CFFF5B28F2D0890018D354 /* MBCommonServicesMock.podspec */,
+				D5CFFE5E28F2D0820018D354 /* MBContactsUIInterfaces.podspec */,
+				D5CFFEDE28F2D0860018D354 /* MBContactsUIMock.podspec */,
+				D5CFFF0328F2D0870018D354 /* MBLocalization.podspec */,
+				D5CFFF0D28F2D0870018D354 /* MBLocalizationKit.podspec */,
+				D5CFFF4528F2D0880018D354 /* MBLocalizationKitInterfaces.podspec */,
+				D5CFFF4B28F2D0880018D354 /* MBLocalizationKitMock.podspec */,
+				D5CFFF5528F2D0890018D354 /* MBMapsInterfaces.podspec */,
+				D5CFFE6628F2D0830018D354 /* MBMapsMock.podspec */,
+				D5CFFF1A28F2D0870018D354 /* MBSearchIO.podspec */,
+				D5CFFED028F2D0860018D354 /* MBSharedConfigsInterfaces.podspec */,
+				D5CFFE7F28F2D0830018D354 /* MBSharedConfigsMock.podspec */,
+				D5CFFEBD28F2D0850018D354 /* MBTECSComponentsInterfaces.podspec */,
+				D5CFFEA828F2D0840018D354 /* MBTECSComponentsMock.podspec */,
+				D5CFFE6228F2D0820018D354 /* MBUIFoundation.podspec */,
+				D5CFFE5D28F2D0820018D354 /* MBUIFoundationMock.podspec */,
+				D5CFFF8528F2D08A0018D354 /* MBUIModulesInterfaces.podspec */,
+				D5CFFF0028F2D0870018D354 /* MBUIModulesMock.podspec */,
+				D5CFFEEF28F2D0860018D354 /* MBWidgetsLocalization.podspec */,
+				D5CFFF3028F2D0880018D354 /* MeetingAppointmentInterfaces.podspec */,
+				D5CFFF8B28F2D08A0018D354 /* MeetingAppointmentMock.podspec */,
+				D5CFFF9928F2D08B0018D354 /* MobileBankAnalyticsMock.podspec */,
+				D5CFFF8428F2D08A0018D354 /* MobileBankCoreMock.podspec */,
+				D5CFFE8B28F2D0840018D354 /* MobileBankCoreSharedMock.podspec */,
+				D5CFFEC428F2D0850018D354 /* MobileBankDeeplinkInterfaces.podspec */,
+				D5CFFE7D28F2D0830018D354 /* MobileBankDeeplinkMock.podspec */,
+				D5CFFED428F2D0860018D354 /* MobileBankExtensionsServices.podspec */,
+				D5CFFF2528F2D0880018D354 /* MobileBankExtensionsServicesIO.podspec */,
+				D5CFFE9F28F2D0840018D354 /* MobileBankExtensionsServicesMock.podspec */,
+				D5CFFF1D28F2D0870018D354 /* MobileBankIO.podspec */,
+				D5CFFE8D28F2D0840018D354 /* MobileBankIOMock.podspec */,
+				D5CFFF1628F2D0870018D354 /* MobileBankNetworkMock.podspec */,
+				D5CFFEE128F2D0860018D354 /* MobileBankPerformanceIO.podspec */,
+				D5CFFF0E28F2D0870018D354 /* MobileBankPerformanceMock.podspec */,
+				D5CFFE5F28F2D0820018D354 /* MobileBankPersistenceMock.podspec */,
+				D5CFFE9228F2D0840018D354 /* MobileBankPlatformMock.podspec */,
+				D5CFFE7528F2D0830018D354 /* MobileBankPushNotifications.podspec */,
+				D5CFFF9628F2D08A0018D354 /* MobileBankPushNotificationsFeatureToggles.podspec */,
+				D5CFFEE228F2D0860018D354 /* MobileBankPushNotificationsInterfaces.podspec */,
+				D5CFFE8128F2D0830018D354 /* MobileBankPushNotificationsMock.podspec */,
+				D5CFFEE328F2D0860018D354 /* MobileBankPushNotificationsService.podspec */,
+				D5CFFF2628F2D0880018D354 /* MobileBankPushNotificationsUI.podspec */,
+				D5CFFEFD28F2D0870018D354 /* MobileBankTinkoffSecureIO.podspec */,
+				D5CFFEDC28F2D0860018D354 /* MobileBankTinkoffSecureMock.podspec */,
+				D5CFFF4728F2D0880018D354 /* MobileBankUIInterfaces.podspec */,
+				D5CFFF7428F2D0890018D354 /* MobileBankUIMock.podspec */,
+				D5CFFF4C28F2D0880018D354 /* MobileBankVoIPIO.podspec */,
+				D5CFFEB428F2D0850018D354 /* MobileBankVoIPMock.podspec */,
+				D5CFFE8328F2D0830018D354 /* MobileBankWebSocketsInterfaces.podspec */,
+				D5CFFF6A28F2D0890018D354 /* MobileBankWebSocketsMock.podspec */,
+				D5CFFED228F2D0860018D354 /* MobileBankWhoCallsIO.podspec */,
+				D5CFFF7728F2D08A0018D354 /* MobileBankWhoCallsMock.podspec */,
+				D5CFFE8828F2D0830018D354 /* MockUtils.podspec */,
+				D5CFFF8928F2D08A0018D354 /* MonoApp.podspec */,
+				D5CFFEA928F2D0840018D354 /* MonoAppRoot.podspec */,
+				D5CFFE7828F2D0830018D354 /* MvnoIO.podspec */,
+				D5CFFE9D28F2D0840018D354 /* MvnoMock.podspec */,
+				D5CFFF0528F2D0870018D354 /* NFSAfishaMainInterfaces.podspec */,
+				D5CFFF5928F2D0890018D354 /* NFSAfishaMainMock.podspec */,
+				D5CFFF4828F2D0880018D354 /* NFSAppAvailabilityInterfaces.podspec */,
+				D5CFFF1028F2D0870018D354 /* NFSAppAvailabilityMock.podspec */,
+				D5CFFF3B28F2D0880018D354 /* NFSAppealCoordinatorInterfaces.podspec */,
+				D5CFFE9528F2D0840018D354 /* NFSAppealCoordinatorMock.podspec */,
+				D5CFFF8E28F2D08A0018D354 /* NFSCacheInterfaces.podspec */,
+				D5CFFE6E28F2D0830018D354 /* NFSCacheMock.podspec */,
+				D5CFFE9628F2D0840018D354 /* NFSCityPickingCoordinatorInterfaces.podspec */,
+				D5CFFEEA28F2D0860018D354 /* NFSCityPickingCoordinatorMock.podspec */,
+				D5CFFF0128F2D0870018D354 /* NFSConfigInterfaces.podspec */,
+				D5CFFF0628F2D0870018D354 /* NFSConfigMock.podspec */,
+				D5CFFEAE28F2D0850018D354 /* NFSEntertainmentsSchemesInterfaces.podspec */,
+				D5CFFEF828F2D0860018D354 /* NFSPaymentsInterfaces.podspec */,
+				D5CFFEF528F2D0860018D354 /* NFSPaymentsMock.podspec */,
+				D5CFFE5A28F2D0820018D354 /* NFSSearchInterfaces.podspec */,
+				D5CFFED928F2D0860018D354 /* OffersKit.podspec */,
+				D5CFFF3E28F2D0880018D354 /* OffersKitCoreUtils.podspec */,
+				D5CFFEB628F2D0850018D354 /* OffersKitMock.podspec */,
+				D5CFFF4928F2D0880018D354 /* Operations.podspec */,
+				D5CFFE7628F2D0830018D354 /* OperationsIO.podspec */,
+				D5CFFF1128F2D0870018D354 /* OperationsMock.podspec */,
+				D5CFFF2928F2D0880018D354 /* OperationsMonoApp.podspec */,
+				D5CFFF7128F2D0890018D354 /* OrderDetailsInterfaces.podspec */,
+				D5CFFE7028F2D0830018D354 /* OrderDetailsMock.podspec */,
+				D5CFFF6D28F2D0890018D354 /* OrdersKitInterfaces.podspec */,
+				D5CFFF6F28F2D0890018D354 /* OrdersKitMock.podspec */,
+				D5CFFE9928F2D0840018D354 /* OverdraftsIO.podspec */,
+				D5CFFF1228F2D0870018D354 /* OverdraftsMock.podspec */,
+				D5CFFF2B28F2D0880018D354 /* PaymentRisksMonoApp.podspec */,
+				D5CFFF6628F2D0890018D354 /* PaymentsAnalyticsInterfaces.podspec */,
+				D5CFFE6728F2D0830018D354 /* PaymentsAnalyticsMock.podspec */,
+				D5CFFEC528F2D0850018D354 /* PaymentsIO.podspec */,
+				D5CFFF3F28F2D0880018D354 /* PaymentsMock.podspec */,
+				D5CFFE8C28F2D0840018D354 /* PaymentsMonoApp.podspec */,
+				D5CFFF1928F2D0870018D354 /* PersonalFeedIO.podspec */,
+				D5CFFE8428F2D0830018D354 /* PersonalFeedKitInterfaces.podspec */,
+				D5CFFF3428F2D0880018D354 /* PersonalFeedKitMock.podspec */,
+				D5CFFF4A28F2D0880018D354 /* PersonalFeedMock.podspec */,
+				D5CFFF2228F2D0870018D354 /* PersonalFeedMonoApp.podspec */,
+				D5CFFF0C28F2D0870018D354 /* PlatformFeatureToggles.podspec */,
+				D5CFFF7228F2D0890018D354 /* PlatformMonoApp.podspec */,
+				D5CFFF7528F2D08A0018D354 /* PreciousMetal.podspec */,
+				D5CFFF8F28F2D08A0018D354 /* PreciousMetalInterfaces.podspec */,
+				D5CFFF2128F2D0870018D354 /* PreciousMetalMock.podspec */,
+				D5CFFF4D28F2D0890018D354 /* PremiumServicesIO.podspec */,
+				D5CFFEE528F2D0860018D354 /* PremiumServicesMock.podspec */,
+				D5CFFF4F28F2D0890018D354 /* ProductDetailsKitInterfaces.podspec */,
+				D5CFFF3928F2D0880018D354 /* ProductDetailsKitMock.podspec */,
+				D5CFFF5D28F2D0890018D354 /* ProductsHomeIO.podspec */,
+				D5CFFE5B28F2D0820018D354 /* ProductsHomeMock.podspec */,
+				D5CFFF2428F2D0880018D354 /* ProductsHomeWidgetToolsMock.podspec */,
+				D5CFFF6428F2D0890018D354 /* ProfileIO.podspec */,
+				D5CFFEA128F2D0840018D354 /* ProfileMock.podspec */,
+				D5CFFE9128F2D0840018D354 /* ProfileMonoApp.podspec */,
+				D5CFFE7A28F2D0830018D354 /* ReceiptKitInterfaces.podspec */,
+				D5CFFF5C28F2D0890018D354 /* ReceiptKitMock.podspec */,
+				D5CFFE9A28F2D0840018D354 /* ReceiptScanningInterfaces.podspec */,
+				D5CFFF4028F2D0880018D354 /* ReceiptScanningMock.podspec */,
+				D5CFFECE28F2D0850018D354 /* Resources.podspec */,
+				D5CFFEB828F2D0850018D354 /* RestaurantsInterfaces.podspec */,
+				D5CFFF7E28F2D08A0018D354 /* RestaurantsMock.podspec */,
+				D5CFFF4128F2D0880018D354 /* RoundingsIO.podspec */,
+				D5CFFF1F28F2D0870018D354 /* RoundingsMock.podspec */,
+				D5CFFF2A28F2D0880018D354 /* sample.podspec */,
+				D5CFFF3728F2D0880018D354 /* SchemesKitInterfaces.podspec */,
+				D5CFFE7B28F2D0830018D354 /* SchemesKitMock.podspec */,
+				D5CFFEE728F2D0860018D354 /* SearchCoreInterfaces.podspec */,
+				D5CFFF5728F2D0890018D354 /* SearchCoreMock.podspec */,
+				D5CFFEBB28F2D0850018D354 /* SearchIO.podspec */,
+				D5CFFF2828F2D0880018D354 /* SearchMock.podspec */,
+				D5CFFF1528F2D0870018D354 /* SelfEmploymentIO.podspec */,
+				D5CFFE7C28F2D0830018D354 /* SelfEmploymentMock.podspec */,
+				D5CFFE8528F2D0830018D354 /* SelfServiceIO.podspec */,
+				D5CFFF2028F2D0870018D354 /* SelfServiceMock.podspec */,
+				D5CFFEF128F2D0860018D354 /* SelfServiceMonoApp.podspec */,
+				D5CFFE8F28F2D0840018D354 /* SensitiveModeKitIO.podspec */,
+				D5CFFEA228F2D0840018D354 /* SensitiveModeKitMock.podspec */,
+				D5CFFEDA28F2D0860018D354 /* SmartFieldsMock.podspec */,
+				D5CFFF8C28F2D08A0018D354 /* SmartFlowKitInterfaces.podspec */,
+				D5CFFEEC28F2D0860018D354 /* SmartFlowKitMock.podspec */,
+				D5CFFF9028F2D08A0018D354 /* SmartFlowKitMonoApp.podspec */,
+				D5CFFEF928F2D0860018D354 /* SmartFormsMock.podspec */,
+				D5CFFF5028F2D0890018D354 /* SnapshotTests.podspec */,
+				D5CFFEA328F2D0840018D354 /* StoriesIO.podspec */,
+				D5CFFE6828F2D0830018D354 /* StoriesMock.podspec */,
+				D5CFFEC828F2D0850018D354 /* StoriesRequestsIO.podspec */,
+				D5CFFE8628F2D0830018D354 /* TBundleIO.podspec */,
+				D5CFFE6928F2D0830018D354 /* TBundleMock.podspec */,
+				D5CFFEC928F2D0850018D354 /* TBundleMonoApp.podspec */,
+				D5CFFF1728F2D0870018D354 /* TinkoffBusinessMock.podspec */,
+				D5CFFF5628F2D0890018D354 /* TinkoffMockStrappingUtils.podspec */,
+				D5CFFE6B28F2D0830018D354 /* TinkoffSignatureNotification.podspec */,
+				D5CFFE9028F2D0840018D354 /* TinkoffSignatureNotificationIO.podspec */,
+				D5CFFEB928F2D0850018D354 /* TinkoffUIMock.podspec */,
+				D5CFFF3828F2D0880018D354 /* TPrivateAvailabilityInterfaces.podspec */,
+				D5CFFF9228F2D08A0018D354 /* TPrivateAvailabilityMock.podspec */,
+				D5CFFED728F2D0860018D354 /* TPrivateIO.podspec */,
+				D5CFFE7E28F2D0830018D354 /* TPrivateMock.podspec */,
+				D5CFFE6C28F2D0830018D354 /* TranchesIO.podspec */,
+				D5CFFF7628F2D08A0018D354 /* TranchesMock.podspec */,
+				D5CFFEF328F2D0860018D354 /* TransferByPhoneInterfaces.podspec */,
+				D5CFFE6D28F2D0830018D354 /* TransferByPhoneMock.podspec */,
+				D5CFFE7128F2D0830018D354 /* TravelBotInterfaces.podspec */,
+				D5CFFF3628F2D0880018D354 /* TravelIO.podspec */,
+				D5CFFEB728F2D0850018D354 /* TravelMock.podspec */,
+				D5CFFE9828F2D0840018D354 /* TravelMonoApp.podspec */,
+				D5CFFE8728F2D0830018D354 /* TrusteeInterfaces.podspec */,
+				D5CFFEE928F2D0860018D354 /* TrusteeMock.podspec */,
+				D5CFFECA28F2D0850018D354 /* UnitTests.podspec */,
+				D5CFFF3128F2D0880018D354 /* UserInfoServicesIO.podspec */,
+				D5CFFF6228F2D0890018D354 /* UserInfoServicesMock.podspec */,
 				D594FECB28F224640034E641 /* KifTestsUtils.podspec */,
 				D594FECC28F224640034E641 /* TravelBot.podspec */,
 				D594FECD28F224640034E641 /* MobileBankStubs.podspec */,
@@ -1160,7 +1810,7 @@
 			path = ../antlr4/runtime/Swift/Sources/Antlr4;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -1171,7 +1821,6 @@
 				OBJ_240 /* Images */,
 				OBJ_241 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_66 /* atn */ = {
@@ -1261,12 +1910,13 @@
 		OBJ_8 /* podspec-parser */ = {
 			isa = PBXGroup;
 			children = (
-				D594FECA28F224640034E641 /* podspecs-proccessed */,
 				OBJ_9 /* Podspec.g4 */,
-				OBJ_10 /* Autogen */,
 				OBJ_17 /* GraphStorage.swift */,
-				OBJ_18 /* PodspecListenerImpl.swift */,
+				D5CFFF9A28F2FB020018D354 /* GraphVisualizer.swift */,
 				OBJ_19 /* main.swift */,
+				OBJ_18 /* PodspecListenerImpl.swift */,
+				OBJ_10 /* Autogen */,
+				D594FECA28F224640034E641 /* podspecs-proccessed */,
 			);
 			name = "podspec-parser";
 			path = "Sources/podspec-parser";
@@ -1402,7 +2052,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_235 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1642,6 +2292,7 @@
 			files = (
 				OBJ_457 /* PodspecBaseListener.swift in Sources */,
 				OBJ_458 /* PodspecBaseVisitor.swift in Sources */,
+				D5CFFF9B28F2FB020018D354 /* GraphVisualizer.swift in Sources */,
 				OBJ_459 /* PodspecLexer.swift in Sources */,
 				OBJ_460 /* PodspecListener.swift in Sources */,
 				OBJ_461 /* PodspecParser.swift in Sources */,

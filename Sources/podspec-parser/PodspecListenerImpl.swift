@@ -7,15 +7,19 @@
 
 final class PodspecListenerImpl: PodspecBaseListener {
     
+    private let storage: IGraphStorage
+    
+    init(storage: IGraphStorage) {
+        self.storage = storage
+    }
+    
     override func exitSpec_body(_ ctx: PodspecParser.Spec_bodyContext) {
         guard let name = ctx.spec_name()?.name()?.getText(),
               let body = ctx.spec_body() else { return }
         
-        GraphStorage.addNode(name)
         let dependencies = iterateOverDependencies(body)
-        
         for dependency in dependencies {
-            GraphStorage.addEdge(from: name, to: dependency)
+            storage.addEdge(from: name, to: dependency)
         }
     }
     
